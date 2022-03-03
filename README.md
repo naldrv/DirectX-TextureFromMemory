@@ -17,9 +17,11 @@ credits: azurilex
 		0x00, 0xff, 0x00, 0xff, 0x00, 0x00, 0xff, 0xff, 0xff, 0x00, 0x00, 0xff, // @note: green, blue, red
 		0x00, 0x00, 0xff, 0xff, 0xff, 0x00, 0x00, 0xff, 0x00, 0xff, 0x00, 0xff  // @note: blue, red, green
 	};
-  
+	
+	
+  	ID3D11ShaderResourceView* p_logo_or_something;
         // @note: d3d11 device, pointer to d3d11 shader resource view (where you'll store your texture), array, width, height
-        if (!load_image(p_device, &byte_resources::void_logo, map, 3, 3))
+        if (!load_image(p_device, &p_logo_or_something, map, 3, 3))
             throw std::runtime_error("failed to load texture from memory");
 ```
 

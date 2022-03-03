@@ -7,7 +7,7 @@ credits: azurilex
 ```c
 	/* @note: readable version of array
 	 *
-	 *   RED(0,0), GREEN(1,0), BLUE(2,0)
+	 *   	 RED(0,0), GREEN(1,0), BLUE(2,0)
 	 *	 GREEN(0,1), BLUE(1,1), RED(2,1)
 	 *	 BLUE(0,2), RED(1,2), GREEN(2,2)
 	 */

@@ -11,6 +11,8 @@ credits: azurilex
 	 *	 GREEN(0,1), BLUE(1,1), RED(2,1)
 	 *	 BLUE(0,2), RED(1,2), GREEN(2,2)
 	 */
+	 
+	 // @ note: byte array representing pixel data with a width and height of 3
 
 	std::uint8_t map[] = {
 		0xff, 0x00, 0x00, 0xff, 0x00, 0xff, 0x00, 0xff, 0x00, 0x00, 0xff, 0xff, // @note: red, green, blue

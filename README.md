@@ -31,6 +31,7 @@ credits: azurilex
 bool drawing::load_image(ID3D11Device* p_device, ID3D11ShaderResourceView** shader_view, const std::uint8_t* data, const UINT width, const UINT height)
 {
         // @note: width * (sizeof byte * 4 for r,g,b,a)
+	// @note: another way of calculating bytes per row of pixels would be sizeof(data) / height
 	const D3D11_SUBRESOURCE_DATA init_data = { data, static_cast<DWORD>(width * (sizeof(std::uint8_t) * 4)), 0 };
 
 	D3D11_TEXTURE2D_DESC desc = {};

@@ -1,8 +1,6 @@
 # DirectX-TextureFromMemory
 couldn't find hardly any info about this online so i'll drop the solution i wrote here.
 
-credits: azurilex
-
 ## Usage
 ```c
 	/* @note: readable version of array
